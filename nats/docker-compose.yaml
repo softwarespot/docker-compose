@@ -1,0 +1,6 @@
+version: '3'
+services:
+    nats:
+        image: 'bitnami/nats:latest'
+        ports:
+            - 4222:4222
